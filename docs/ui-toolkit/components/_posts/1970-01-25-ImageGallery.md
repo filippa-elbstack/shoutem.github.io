@@ -71,7 +71,7 @@ constructor(props) {
   }
 }
 
-renderImageOverlay(photos) {
+renderImageOverlay = (photos) => {
 
   return (
     <ImageGalleryOverlay
